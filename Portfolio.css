@@ -1,0 +1,83 @@
+body {
+  background-color: #000000;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+img {
+  max-width: 100px;
+}
+
+.cabecalho{
+  background-color:rgb(0, 0, 0) ;
+  padding: 13px;
+}
+
+.qualquer ul{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.qualquer a{
+  text-decoration: none;
+  color: white;
+}
+
+.qualquer a:hover{
+  background-color: blue;
+  padding: 5px;
+}
+
+.banner {
+  background-image: url("https://i.pinimg.com/originals/85/a8/a5/85a8a57ac8de9fa451d771c7c044ff45.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+footer {
+  background-color: white;
+}
+
+.titulo {
+  display: flex;
+  color: rgb(254, 254, 254);
+  font-size: 100px;
+  font-family: "Pixelify Sans", sans-serif;
+  justify-content: center;
+  transition: 0.4s ease-in-out;
+}
+
+.descricao {
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Pixelify Sans", sans-serif;
+  justify-content: center;
+}
+
+footer{
+  background-color: #000000;
+  padding: 25px;
+}
+
+.parte3 ul{
+  display: flex;
+  justify-content: center;
+}
+
+.parte3 img{
+  width: 40px;
+  margin-right: 35px;
+  transition: 0.4s ease-in-out;
+}
+
+.parte3 img:hover{
+  width: 60px;
+}
+
+.titulo:hover{
+  font-size: 150px;
+  color: blue;
+}
